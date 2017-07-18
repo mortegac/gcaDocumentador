@@ -87,6 +87,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## FeedBack
-Runs the app in the development mode.<br>
+Contact Us [info@apgca.cl](mailto:info@apgca.cl)
 
 
