@@ -71,9 +71,15 @@ For the project to build, **these files must exist with exact filenames**:
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory
 
-### `npm start`
+Install dependencies
+
+### `yarn install`
+
+You can run:
+
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
