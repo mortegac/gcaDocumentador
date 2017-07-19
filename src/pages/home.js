@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import Alert from '../components/alert/alert'
-
+import {cn} from '../utils/config'
 
 class Home extends Component {
   render () {
@@ -19,7 +19,7 @@ class Home extends Component {
                 <section className="section">
                 <div className="container ">
                     <div className="columns">
-                    <div className="column"><p className="notification is-success"><Alert></Alert></p></div>            
+                    <div className="column"><p className="notification is-success">{cn.apiUrl}<Alert></Alert></p></div>            
                     </div>
                 </div>
                 </section>

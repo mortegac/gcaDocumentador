@@ -13,7 +13,7 @@ class ProyectList extends Component {
   render () {
     return (
         <div className="columns is-desktop">
-                        <Card></Card>
+            <Card></Card>
             <Card></Card>
             <Card></Card>
             <Card></Card>
