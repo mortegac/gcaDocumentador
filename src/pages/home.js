@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-// import HeaderNav from '../components/headerNav/headerNav'
+import Alert from '../components/alert/alert'
 
 
 class Home extends Component {
@@ -19,7 +19,7 @@ class Home extends Component {
                 <section className="section">
                 <div className="container ">
                     <div className="columns">
-                    <div className="column"><p className="notification is-success">Auto</p></div>            
+                    <div className="column"><p className="notification is-success"><Alert></Alert></p></div>            
                     </div>
                 </div>
                 </section>
