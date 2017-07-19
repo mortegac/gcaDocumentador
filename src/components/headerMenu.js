@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class HeaderMenu extends Component {
   render () {
@@ -7,13 +8,18 @@ class HeaderMenu extends Component {
             <span id="nav-toggle" className="nav-toggle"><span></span><span></span><span></span></span>
 
             <div id="nav-menu" className="nav-right nav-menu">
-                <a className="nav-item " href="/">Inicio</a>
-                <a className="is-hidden nav-item  " href="#">
-                    <span>Templates</span>
-                    <span className="tag is-small is-success">New!</span>
-                </a>
-                <a className="nav-item  is-active" href="#"> Documentación</a>
-                <a className="nav-item " href="/blog/">Soporte</a>
+                <Link to='/' className="nav-item ">Inicio</Link>
+               
+               { 
+                //    <a className="is-hidden nav-item  " href="#">
+                //     <span>Templates</span>
+                //     <span className="tag is-small is-success">New!</span>
+                // </a>
+               } 
+                <Link to='/documentacion' className="nav-item ">Documentación</Link>
+                <Link to='/proyectos' className="nav-item is-active">proyectos</Link>
+                <Link to='/soporte' className="nav-item is-active">Soporte</Link>
+                
 
 
                 <span className="nav-item">

@@ -7,7 +7,7 @@ import HeaderBody from '../components/headerBody/headerBody'
 class Header extends Component {
   render () {
     return (
-     <section className="hero is-primary">
+     <section className="hero is-info">
            
            <HeaderNav></HeaderNav>
            
